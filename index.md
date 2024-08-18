@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Homepage
+language: en
 ---
+
 Bing-Ying Lu | 陆冰滢's personal website
 =====
 
@@ -13,7 +15,7 @@ Bing-Ying Lu | 陆冰滢's personal website
 * Home page: https://luby.lu/
 
 
-It works. 
+It works.
 
 $a=1$.
 
