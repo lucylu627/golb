@@ -1,3 +1,8 @@
 baseurl: /
 
-title:            Personal website of 陆冰滢 (Luby Bing-Ying LU)
+title: Personal website of 陆冰滢 (Luby Bing-Ying LU)
+exclude:
+  - README.md
+  - .gitignore
+  - CNAME
+  - serve.sh
