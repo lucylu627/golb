@@ -1,9 +1,0 @@
-services:
-  jekyll:
-    volumes:
-      - .:/srv/jekyll
-    ports:
-      - "4000:4000"
-    image: jekyll/jekyll
-    restart: no
-    command: jekyll serve --trace --force_polling --drafts --incremental
