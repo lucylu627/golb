@@ -50,11 +50,11 @@ MathJax = {
     }
 };
 
+loadCSS('/assets/remarkdown.css');
+loadCSS('/assets/hljs-grayscale.css');
+loadCSS('/styles.css');
+
 loadJs('/assets/highlight.min.js', false, true, function () {
     hljs.highlightAll();
 });
 loadJs('/assets/mathjax/tex-mml-svg.js', false, true, function () { });
-
-loadCSS('/assets/remarkdown.css');
-loadCSS('/assets/hljs-grayscale.css');
-loadCSS('/styles.css');
